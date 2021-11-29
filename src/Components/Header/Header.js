@@ -5,11 +5,11 @@ import './Header.css'
 const Header = () => {
   return (
     <div className="header-container">
-      <div className="header-logo">GithubProfile()</div>
-      <div className="theme-container">
+      <div className="header-logo"><h1>GithubProfile()</h1></div>
+      {/* <div className="theme-container">
         <h1>Light</h1>
         <MdLightMode size={"3em"} />
-      </div>
+      </div> */}
     </div>
   )
 };
