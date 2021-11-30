@@ -19,7 +19,9 @@ const Content = () => {
       </div>
 
       <div className="bio">
-        <p>This profile has no bio</p>
+        <p>
+          ITP is a two-year graduate program located in the Tisch School of the Arts whose mission is to explore the imaginative use of communications technologies.
+        </p>
       </div>
 
       <div className="stats">

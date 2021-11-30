@@ -53,6 +53,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
+  text-align: left
 }
 
 .content-container .profile-info .name {
@@ -86,6 +87,7 @@
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items: flex-start;
+    text-align: left;
   }
 
   .content-container .profile-info .name {
@@ -107,12 +109,14 @@
 
 .content-container .bio {
   grid-column: 1 / span 2;
+  text-align: left;
 }
 
 /* for screen above 1440p */
 @media screen and (min-width: 1440px) {
   .content-container .bio {
     grid-column: 2;
+    text-align: left;
   }
 }
 

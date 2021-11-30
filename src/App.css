@@ -13,21 +13,46 @@
 
 * {
   font-family: Source Code Pro;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
 html,body {
   height: 100%;
   background-color: #141D2F;
+  font-size: 13px;
+  line-height: 25px;
 }
 
 .App {
   text-align: center;
-  padding-top: 7em;
-  width: 40%;
+  padding: 32px 24px;
+  max-width: 375px;
   margin: 0 auto;
 }
 
 a {
   text-decoration: none;
+}
+
+/* for screen above 768p */
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  
+  .App {
+    max-width: 573px;
+    padding: 140px 98px
+  }
+}
+
+/* for screen above 1440p */
+@media screen and (min-width: 1440px) {
+  .App {
+    max-width: 730px;
+  }  
 }
 
