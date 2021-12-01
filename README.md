@@ -4,13 +4,13 @@ Inspired by one of the challange from https://www.frontendmentor.io/, using data
 
 ## UI
 Desktop
-![Desktop](./Assets/Desktop.png)
+![Desktop](./src/Assets/Desktop.png)
 
 Tablet
-![Tablet](./Assets/Tablet.png)
+![Tablet](./src/Assets/Tablet.png)
 
 Mobile
-![Mobile](./Assets/Mobile.png)
+![Mobile](./src/Assets/Mobile.png)
 
 ##Built with
 
